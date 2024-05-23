@@ -11,7 +11,7 @@ struct Location {
 
 fn main() -> Result<(), Box<dyn Error>> {
     // Path to the CSV file
-    let csv_file_path = "led_coords.csv";
+    let csv_file_path = "zandvoort_led_coordinates_normalized_check_for_inversion.csv";
 
     // Create a reader for the CSV
     let mut rdr = Reader::from_path(csv_file_path)?;
